@@ -1,0 +1,7 @@
+4 main types of database
+
+1. Realtional/sql database - database > tables >rows > coloums (mysql , postgra .oracla , sql server , etc)
+2. NO SQL/ DOcument -  database > collections > documents (MongoDB , COuchDB , etc.)
+3. Graps database -  database> nodes > edges
+4. key-value database-  database >keys > values (redis ,baik ,etc)
+5. Blob stot

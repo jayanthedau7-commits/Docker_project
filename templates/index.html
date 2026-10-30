@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+
+    <body>
+        <p>Hi , welcome to the sign up page</p>
+        <p>Today is a {{ day_of_week }} </p>
+        <p>The time is {{ current_time }}</p>
+    </body>
+
+<div class="centered">
+    <form  action="/submit" method="POST">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+    </form>
+
+    </div>
+
+    <style>
+        body{
+            background-color: bisque;
+        }
+
+        p{
+            text-align: center;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+    </style>
+
